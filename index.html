@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOC Analyst Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <header>
+        <h1>SOC ANALYST DASHBOARD</h1>
+        <p>Threat Monitoring Console</p>
+    </header>
+
+    <div class="grid">
+
+        <div class="card">
+            <h2>System Status</h2>
+            <p class="online">ONLINE</p>
+        </div>
+
+        <div class="card">
+            <h2>Threat Level</h2>
+            <p class="medium">MEDIUM</p>
+        </div>
+
+        <div class="card">
+            <h2>Alerts Today</h2>
+            <p>17</p>
+        </div>
+
+        <div class="card">
+            <h2>Blocked IPs</h2>
+            <p>42</p>
+        </div>
+
+    </div>
+
+    <section class="logs">
+        <h2>Recent Security Events</h2>
+
+        <ul id="event-list">
+            <li>[INFO] Firewall active</li>
+            <li>[WARNING] Multiple login attempts detected</li>
+            <li>[INFO] System scan completed</li>
+        </ul>
+    </section>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
